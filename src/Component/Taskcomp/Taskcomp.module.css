@@ -1,0 +1,20 @@
+.Addtask{
+    width: 250px;
+    height: 120px;
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+
+.Addtask:hover{
+    background-color: grey;
+    transition: 0.2s linear;
+    cursor: pointer;
+}
+
+.Addtask h3{
+    font-size: 20px;
+    font-weight: 400;
+   }

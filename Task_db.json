@@ -1,0 +1,24 @@
+{
+    "tasks":[
+        {
+            "id": "1",
+            "Task":"Daily routines",
+            "Message":"Wake up at 7 am"
+        },
+        {
+            "id": "2",
+            "Task":"Daily routines",
+            "Message":"Eat breakfast at 8am"
+        },
+        {
+            "id": "3",
+            "Task":"Daily routines",
+            "Message":"Walking the dog at 7:15am"
+        },
+        {
+            "id": "4",
+            "Task":"Daily routines",
+            "Message":"Sleeping at 10pm"
+        }
+    ]
+}

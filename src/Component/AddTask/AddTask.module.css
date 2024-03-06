@@ -1,0 +1,84 @@
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900);
+
+.ContentWrapper{
+    width: 100%;
+    min-height: 85vh;
+    padding: 20px;
+}
+
+.Greeting{
+    width: 500px;
+    height: 150px;
+}
+
+.Greeting h2{
+    font-size: 50px;
+    font-weight: 400;
+    font-family: inter;
+    color: white;
+}
+
+.btn{
+    /* border: 1px solid black; */
+    height: 100px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn button{
+    width: 150px;
+    height: 30px;
+    border-radius: 20px ;
+    border: none;
+}
+
+.TaskWrapper{
+    width: 100%;
+    min-height: 300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-content: center;
+    justify-items: center;
+    gap: 20px;
+}
+
+.Task{
+    width: 450px;
+    height: 300px;
+    border: 1px solid black;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #404040;
+    border-radius: 20px;
+}
+
+.delWrapper{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.deletebtn{
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+}
+
+.deletebtn :hover{
+    background-color: grey;
+}
+
+.deletebtn img{
+    width: 30px;
+    height: 30px;
+}

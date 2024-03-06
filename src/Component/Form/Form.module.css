@@ -1,0 +1,25 @@
+.FormWrapper{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.Form{
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    border: 1px solid black;
+    
+}
+
+.Msg{
+    max-width: 360px;
+    height: 200px;
+    padding-bottom: 100px;
+}
